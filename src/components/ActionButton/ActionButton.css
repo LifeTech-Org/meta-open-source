@@ -1,0 +1,21 @@
+.action__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: inherit;
+  text-transform: capitalize;
+  font-weight: lighter;
+  font-weight: 400;
+}
+
+.action__button .icon {
+  margin-right: 10px;
+  font-size: 40px;
+}
+/*# sourceMappingURL=ActionButton.css.map */

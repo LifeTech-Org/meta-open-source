@@ -1,0 +1,13 @@
+.action__button {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  color: inherit;
+  text-transform: capitalize;
+  font-weight: lighter;
+  font-weight: 400;
+  .icon {
+    margin-right: 10px;
+    font-size: 40px;
+  }
+}

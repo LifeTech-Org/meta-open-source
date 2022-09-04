@@ -1,0 +1,31 @@
+header {
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 50px;
+}
+
+header a img {
+  height: 60px;
+  margin-left: -40px;
+}
+
+@media (min-width: 1024px) {
+  header a img {
+    height: 80px;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

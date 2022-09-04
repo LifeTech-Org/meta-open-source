@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACf,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,QAAQ;EACrB,UAAU,EAAE,IAAI;CAKjB;;AATD,AAKE,gBALc,CAKd,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,cAAc;CACvB",
+    "sources": [
+        "SectionFooter.scss"
+    ],
+    "names": [],
+    "file": "SectionFooter.css"
+}

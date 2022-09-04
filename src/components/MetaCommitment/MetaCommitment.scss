@@ -1,0 +1,37 @@
+.meta__commitment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  h2 {
+    text-transform: capitalize;
+  }
+  .meta__commitment__note {
+    display: flex;
+    justify-content: center;
+    p {
+      max-width: 800px;
+      text-align: center;
+    }
+  }
+  .meta__commitment__tenets {
+    display: grid;
+    grid-template-columns: 1fr;
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    column-gap: 30px;
+    .meta__commitment__tenet {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h3 {
+        text-transform: capitalize;
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
+}

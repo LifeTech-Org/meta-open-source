@@ -1,0 +1,35 @@
+.flexible__welcome {
+  background-color: #465a69;
+  .welcome {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    margin: 50px 0px;
+    column-gap: 100px;
+    .welcome__article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: #fff;
+      padding: 10px;
+
+      h2,
+      h3 {
+        text-transform: capitalize;
+      }
+
+      h3 {
+        font-weight: 400;
+      }
+    }
+    .welcome__image {
+      padding: 10px;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}

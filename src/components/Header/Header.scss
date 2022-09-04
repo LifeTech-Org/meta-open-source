@@ -1,0 +1,17 @@
+header {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  a {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    img {
+      height: 60px;
+      margin-left: -40px;
+      @media (min-width: 1024px) {
+        height: 80px;
+      }
+    }
+  }
+}

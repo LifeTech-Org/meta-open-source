@@ -1,0 +1,53 @@
+.popular__projects__cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  column-gap: 20px;
+  .popular__projects__card {
+    flex: 1;
+    border: solid 1px grey;
+    border-top: 0;
+
+    img {
+      max-width: 100%;
+      min-width: 100%;
+      object-fit: cover;
+    }
+
+    .padding__card {
+      padding: 30px;
+      b {
+        color: grey;
+        text-transform: capitalize;
+      }
+      article {
+        h3 {
+          color: black;
+          text-transform: capitalize;
+        }
+        p {
+          text-transform: capitalize;
+          color: grey;
+          max-height: 60px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+
+      .view__project__action {
+        display: flex;
+        justify-content: space-between;
+        border-top: solid 1px grey;
+        padding: 15px 0px;
+        color: black;
+        .icon {
+          font-size: 25px;
+          color: grey;
+        }
+      }
+    }
+  }
+}

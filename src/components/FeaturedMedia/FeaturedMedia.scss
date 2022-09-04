@@ -1,0 +1,32 @@
+.featured__media__cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  column-gap: 20px;
+  margin-top: 40px;
+  .featured__media__card {
+    .img__container {
+      height: fit-content;
+      overflow: hidden;
+      overflow: hidden;
+      img {
+        min-width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+      }
+    }
+    h3 {
+      text-transform: capitalize;
+      color: black;
+    }
+    footer {
+      time {
+        text-transform: capitalize;
+        margin-top: 10px;
+        color: grey;
+      }
+    }
+  }
+}

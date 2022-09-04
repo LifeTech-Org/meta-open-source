@@ -1,0 +1,50 @@
+.showcase {
+  display: grid;
+  grid-template-columns: 1fr;
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .showcase__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    gap: 20px;
+    .showcase__card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: solid 1px grey;
+      overflow: hidden;
+      img {
+        object-fit: cover;
+        max-width: 100%;
+      }
+    }
+  }
+  .showcase__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 0px;
+    @media (min-width: 768px) {
+      margin: 100px;
+    }
+    b {
+      text-transform: capitalize;
+    }
+    h3 {
+      text-transform: capitalize;
+      font-size: 30px;
+    }
+    p {
+    }
+  }
+}
+
+.flexible__showcase {
+  background-color: #faf8fd;
+  padding: 100px 0px;
+  margin-top: 50px;
+}

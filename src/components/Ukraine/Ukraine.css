@@ -1,0 +1,23 @@
+.ukraine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: #32404a;
+  height: 50px;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 15px;
+}
+
+.ukraine a {
+  color: #f2f2f2;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=Ukraine.css.map */

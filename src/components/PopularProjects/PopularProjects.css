@@ -1,0 +1,71 @@
+.popular__projects__cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  row-gap: 20px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .popular__projects__cards {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.popular__projects__cards .popular__projects__card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: solid 1px grey;
+  border-top: 0;
+}
+
+.popular__projects__cards .popular__projects__card img {
+  max-width: 100%;
+  min-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.popular__projects__cards .popular__projects__card .padding__card {
+  padding: 30px;
+}
+
+.popular__projects__cards .popular__projects__card .padding__card b {
+  color: grey;
+  text-transform: capitalize;
+}
+
+.popular__projects__cards .popular__projects__card .padding__card article h3 {
+  color: black;
+  text-transform: capitalize;
+}
+
+.popular__projects__cards .popular__projects__card .padding__card article p {
+  text-transform: capitalize;
+  color: grey;
+  max-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.popular__projects__cards .popular__projects__card .padding__card .view__project__action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: solid 1px grey;
+  padding: 15px 0px;
+  color: black;
+}
+
+.popular__projects__cards .popular__projects__card .padding__card .view__project__action .icon {
+  font-size: 25px;
+  color: grey;
+}
+/*# sourceMappingURL=PopularProjects.css.map */
